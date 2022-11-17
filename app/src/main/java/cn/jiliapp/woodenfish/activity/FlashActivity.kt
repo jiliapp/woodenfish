@@ -21,6 +21,7 @@ class FlashActivity : ExtendAppCompatActivity() {
 
         binding.woodenFish.setOnClickListener {
            startActivity(HomeWorkActivity::class.java)
+            finish()
         }
 
     }
